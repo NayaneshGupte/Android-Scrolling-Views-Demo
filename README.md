@@ -1,5 +1,26 @@
 # Android-Simple-Demos
 
-1. ScrollingViews: RecyclerView and ListView demo using simple dummy data.
+1. ImplicitIntentDemo	:
 
-2. PagerExample:  Tabs + Pager + RecyclerView and List view under tabs pages
+  Demo explaining Implicit Intent , Explicit Intent and Intent Filter
+
+2. PagerExample:	
+
+  ViewPager Example with 3 diffrent type of fragments. 
+  Tabs + Pager + RecyclerView and List view under tabs pages
+
+3. RuntimePermissionsDemo	:
+
+  Sample for Runtime Permissions handling on Android M and above with easy steps.
+
+4. SDCardImageLoader:
+
+  Load images from specific dir on external storage using Picasso.
+
+5. ScrollingViews:	
+
+  RecyclerView and ListView with custom adapter. 
+
+6. SharedPreferencesDemo:
+
+  Handling SharedPreferences using SharedPreferenceManager. Demonstrated using Splash Screen , Sign In screen and Home Screen
