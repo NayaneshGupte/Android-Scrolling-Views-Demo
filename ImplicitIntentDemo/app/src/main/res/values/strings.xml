@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Implicit Intent Demo</string>
+    <string name="empty_text_error_message">Text can not be empty!</string>
+    <string name="title_share_chooser">Share Text</string>
+    <string name="error_msg_activity_not_found">No activity available to support this action!</string>
+</resources>
