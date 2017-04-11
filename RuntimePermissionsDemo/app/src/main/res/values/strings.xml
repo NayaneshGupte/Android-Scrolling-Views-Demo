@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Runtime Permissions Demo</string>
+    <string name="title_activity_storage_permissions">StoragePermissionsActivity</string>
+    <string name="permission_storage_rationale">"Storage permissions are needed for picking images from gallery"
+    </string>
+    <string name="write_permission_granted">Write permission granted !</string>
+    <string name="read_permission_granted">Read permission granted !</string>
+    <string name="pick_image">Pick Image</string>
+</resources>
