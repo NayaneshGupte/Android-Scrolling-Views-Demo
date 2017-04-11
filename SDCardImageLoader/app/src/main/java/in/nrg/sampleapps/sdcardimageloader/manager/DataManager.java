@@ -12,6 +12,8 @@ import static in.nrg.sampleapps.sdcardimageloader.utils.AppConstants.IMAGE_DIR;
 
 /**
  * Load files from specific folder asynchronously
+ *
+ * @author Nayanesh Gupte
  */
 
 public class DataManager extends AsyncTask<Void, Void, ArrayList<FileDetails>> {
@@ -34,6 +36,7 @@ public class DataManager extends AsyncTask<Void, Void, ArrayList<FileDetails>> {
 
     @Override
     protected ArrayList<FileDetails> doInBackground(Void... params) {
+        //TODO: Change directory according to device . Hardcoded for demo purpose
         return FileUtils.getAllImagesFromDir(IMAGE_DIR);
     }
 

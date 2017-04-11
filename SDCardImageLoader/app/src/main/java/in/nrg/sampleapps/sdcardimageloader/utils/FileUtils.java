@@ -36,11 +36,11 @@ public class FileUtils {
             return fileDetailsArrayList;
         }
         File[] files = directory.listFiles();
-        for (int i = 0; i < files.length; i++) {
+        for (File file : files) {
             FileDetails fileDetails = new FileDetails();
-            fileDetails.setFileName(files[i].getName());
-            fileDetails.setFilePath(files[i].getAbsolutePath());
-            fileDetails.setFileUri(Uri.fromFile(files[i]));
+            fileDetails.setFileName(file.getName());
+            fileDetails.setFilePath(file.getAbsolutePath());
+            fileDetails.setFileUri(Uri.fromFile(file));
             fileDetailsArrayList.add(fileDetails);
 
             Log.d(LOG_TAG, "FileName: " + fileDetails);
