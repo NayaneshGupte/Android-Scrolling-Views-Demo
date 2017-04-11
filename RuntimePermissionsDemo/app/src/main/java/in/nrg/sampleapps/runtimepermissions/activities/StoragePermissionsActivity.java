@@ -186,6 +186,24 @@ public class StoragePermissionsActivity extends AppCompatActivity implements Vie
                             }
                         });
             }
+        } else if (requestCode == ALL_PERMISSION_RESULT) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED
+                    && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+
+                Toast.makeText(this, R.string.both_permission_granted, Toast.LENGTH_SHORT).show();
+            } else {
+
+                Snackbar.make(fab, R.string.permission_storage_rationale, Snackbar.LENGTH_INDEFINITE)
+                        .setAction(android.R.string.ok, new View.OnClickListener() {
+                            @Override
+                            @TargetApi(Build.VERSION_CODES.M)
+                            public void onClick(View v) {
+                                requestPermissions(new String[]{
+                                        WRITE_EXTERNAL_STORAGE,
+                                        READ_EXTERNAL_STORAGE}, ALL_PERMISSION_RESULT);
+                            }
+                        });
+            }
         }
     }
 
