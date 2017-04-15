@@ -6,5 +6,9 @@
     <string name="action_linear_vertical">Linear Vertical</string>
     <string name="action_grid_vertical">Grid Vertical</string>
     <string name="action_grid_horizontal">Grid Horizontal</string>
+    <string name="title_plane">PLANE</string>
+    <string name="title_listView">LIST VIEW</string>
+    <string name="title_recycler_view">RECYCLER VIEW</string>
+    <string name="title_activity_home">HomeActivity</string>
 
 </resources>

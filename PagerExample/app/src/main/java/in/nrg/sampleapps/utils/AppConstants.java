@@ -10,4 +10,7 @@ public class AppConstants {
     public static final String KEY_STUDENT = "student";
     public static final String ARG_SECTION_NUMBER = "section_number";
 
+    public static final String KEY_HOME = "home";
+
+
 }
