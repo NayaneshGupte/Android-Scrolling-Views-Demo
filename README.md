@@ -1,26 +1,28 @@
-# Android-Simple-Demos
+# Android Demos
 
-1. ImplicitIntentDemo	:
+These demos are written considering standard practices in industry E.g. naming conventions, design patterns etc.
 
-  Demo explaining Implicit Intent , Explicit Intent and Intent Filter
+**1. ImplicitIntentDemo	:**
+   
+   Demo explaining Implicit Intent, Explicit Intent and Intent Filter
 
-2. PagerExample:	
+**2. PagerExample:**	
+   
+   ViewPager Example with 3 different type of fragments. 
+   Tabs + Pager + RecyclerView and List view under tabs pages
 
-  ViewPager Example with 3 diffrent type of fragments. 
-  Tabs + Pager + RecyclerView and List view under tabs pages
+**3. RuntimePermissionsDemo	:**
+   
+   Sample for Runtime Permissions handling on Android M and above with easy steps.
 
-3. RuntimePermissionsDemo	:
+**4. SDCardImageLoader:**
 
-  Sample for Runtime Permissions handling on Android M and above with easy steps.
+   Load images from specific dir on external storage using Picasso.
 
-4. SDCardImageLoader:
+**5. ScrollingViews:**	
 
-  Load images from specific dir on external storage using Picasso.
+   RecyclerView and ListView with custom adapter. 
 
-5. ScrollingViews:	
+**6. SharedPreferencesDemo:**
 
-  RecyclerView and ListView with custom adapter. 
-
-6. SharedPreferencesDemo:
-
-  Handling SharedPreferences using SharedPreferenceManager. Demonstrated using Splash Screen , Sign In screen and Home Screen
+   Handling SharedPreferences using SharedPreferenceManager. Demonstrated using Splash Screen , Sign In screen and Home Screen
