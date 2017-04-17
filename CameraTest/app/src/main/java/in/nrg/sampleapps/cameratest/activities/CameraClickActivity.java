@@ -1,4 +1,4 @@
-package in.nrg.sampleapps.cameratest;
+package in.nrg.sampleapps.cameratest.activities;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -19,6 +19,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.File;
+
+import in.nrg.sampleapps.cameratest.R;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
