@@ -1,4 +1,4 @@
-package in.nrg.sampleapps.implicitintentdemo.activities;
+package in.nrg.sampleapps.intentsdemo.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,8 +6,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
-import in.nrg.sampleapps.implicitintentdemo.R;
-import in.nrg.sampleapps.implicitintentdemo.utils.ShareUtils;
+import in.nrg.sampleapps.intentsdemo.R;
+import in.nrg.sampleapps.intentsdemo.utils.ShareUtils;
 
 public class ShareTextActivity extends AppCompatActivity {
 

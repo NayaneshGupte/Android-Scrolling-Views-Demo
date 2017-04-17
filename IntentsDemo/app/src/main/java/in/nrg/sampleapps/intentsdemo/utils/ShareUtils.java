@@ -1,11 +1,11 @@
-package in.nrg.sampleapps.implicitintentdemo.utils;
+package in.nrg.sampleapps.intentsdemo.utils;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import in.nrg.sampleapps.implicitintentdemo.R;
+import in.nrg.sampleapps.intentsdemo.R;
 
 /**
  * Utils class for handling some implicit intent methods

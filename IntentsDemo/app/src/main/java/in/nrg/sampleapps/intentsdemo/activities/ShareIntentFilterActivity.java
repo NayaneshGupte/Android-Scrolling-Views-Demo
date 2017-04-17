@@ -1,4 +1,4 @@
-package in.nrg.sampleapps.implicitintentdemo.activities;
+package in.nrg.sampleapps.intentsdemo.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import in.nrg.sampleapps.implicitintentdemo.R;
+import in.nrg.sampleapps.intentsdemo.R;
 
 /**
  * This activity appears as one of the options while share text
