@@ -8,7 +8,7 @@ These demos are written considering standard practices in industry E.g. naming c
    Display captured image in ImageView and allow it to open through external gallery apps.
 
 
-**2. ImplicitIntentDemo	:**
+**2. IntentsDemo	:**
    
    Demo explaining Implicit Intent, Explicit Intent and Intent Filter
 
