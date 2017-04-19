@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import in.nrg.sampleapps.scrollingviews.activities.ListViewActivity;
+import in.nrg.sampleapps.scrollingviews.activities.MultiTypeRecyclerActivity;
 import in.nrg.sampleapps.scrollingviews.activities.RecyclerViewActivity;
 
 /**
@@ -21,6 +22,11 @@ public class NavigationManager {
 
     public static void showListViewDemo(Context context) {
         Intent intent = new Intent(context, ListViewActivity.class);
+        context.startActivity(intent);
+    }
+
+    public static void showMultiTypeViewDemo(Context context) {
+        Intent intent = new Intent(context, MultiTypeRecyclerActivity.class);
         context.startActivity(intent);
     }
 }

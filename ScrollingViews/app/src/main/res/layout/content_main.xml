@@ -30,5 +30,13 @@
             android:ems="15"
             android:onClick="showListViewDemo"
             android:text="@string/list_view" />
+
+        <Button
+            android:id="@+id/btnRecyclerViewTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:onClick="showMultiTypeRecyclerViewDemo"
+            android:text="@string/multi_type_recyclerview" />
     </LinearLayout>
 </RelativeLayout>

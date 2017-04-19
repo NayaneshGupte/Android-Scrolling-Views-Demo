@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
     public void showListViewDemo(View view) {
         NavigationManager.showListViewDemo(this);
     }
+
+    public void showMultiTypeRecyclerViewDemo(View view) {
+        NavigationManager.showMultiTypeViewDemo(this);
+    }
 }

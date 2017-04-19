@@ -10,4 +10,6 @@
 
     <string name="title_activity_recycler_view">RecyclerViewActivity</string>
     <string name="title_activity_list_view">ListView Demo</string>
+    <string name="title_activity_multi_type_recycler">Multi Type RecyclerView</string>
+    <string name="multi_type_recyclerview">Multi Type RecyclerView</string>
 </resources>
